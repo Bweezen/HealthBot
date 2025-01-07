@@ -4,6 +4,8 @@ Usage- To Identify diseases based on symptoms provided by the user, this involve
 
 Stuff Used - Python , NLTK , Streamlit , Fuzzywuzzy , scikit and a few more machine learning tools
 
+I recommend everything to be done in a virtual environment, and make a folder for installation for punkt (tokenizer for nltk)
+
 To Run :
  1. Run model.py , this will create pickle files in the models folder for you , namely disease_model.pkl and symptom_list.pkl
  python model.py
@@ -11,3 +13,4 @@ To Run :
  Streamlit run app.py
 
  the main model is disease_model.pkl , symptom_list.pkl is just for the list of symptoms
+
